@@ -4,7 +4,9 @@
   "description": "Website for the Theia IDE",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "prod": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/nisarhassan12/theia-website/issues"
   },
-  "homepage": "https://github.com/nisarhassan12/theia-website#readme"
+  "homepage": "https://github.com/nisarhassan12/theia-website#readme",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  }
 }

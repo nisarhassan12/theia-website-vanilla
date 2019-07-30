@@ -1,0 +1,25 @@
+{
+  "name": "theia-website",
+  "version": "1.0.0",
+  "description": "Website for the Theia IDE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisarhassan12/theia-website.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PWA"
+  ],
+  "author": "@nisarhassan12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisarhassan12/theia-website/issues"
+  },
+  "homepage": "https://github.com/nisarhassan12/theia-website#readme"
+}

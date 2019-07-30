@@ -1,0 +1,7 @@
+tasks:
+  - command: gp await-port 1234 && sleep 3 && gp preview $(gp url 1234)
+  - init: npm install && npm run prod
+    command: npm run dev
+ports:
+  - port: 1234
+    onOpen: open-preview

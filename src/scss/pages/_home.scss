@@ -73,7 +73,7 @@
 
     &__image {
         height: 100%;
-        max-width: 14rem;
+        max-width: 17rem;
 
         &-container {
             height: 4.4rem;
@@ -105,3 +105,41 @@
 /* ------------------------------------------ */
 /* ----- Features ----- */
 /* ------------------------------------------ */
+
+.features {
+    padding: 12rem 0;
+}
+
+.feature {
+    flex: 3.33%;
+
+    &__container {
+        display: flex;
+
+        @media(max-width: $breakpoint-md) {
+            flex-direction: column;
+        }
+    }
+
+    &:not(:last-child) {
+            margin-right: 8rem;
+
+        @media(max-width: $breakpoint-md) {
+            margin: 0 0 4rem 0;
+        }
+    }
+
+    & > div {
+        text-align: center;
+    }
+
+    h3 {
+        margin: 2rem 0 4rem;
+    }
+
+    img {
+        height: 10rem;
+    }
+
+}
+

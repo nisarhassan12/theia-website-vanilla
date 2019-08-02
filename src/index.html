@@ -11,7 +11,8 @@
 	<link rel="canonical" href="https://www.theia-ide.org/">
 	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-	<script src="js/index.js"></script>
+	<script src="js/index.js">
+	</script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
 						<a href="#features" class="nav__link">Features</a>
 					</li>
 					<li class="nav__item">
-						<a href="doc/index.html" class="nav__link">Documentation</a>
+						<a href="#" class="nav__link">Documentation</a>
 					</li>
 					<li class="nav__item">
 						<a href="https://spectrum.chat/theia" target="_blank" class="nav__link">Comunity</a>
@@ -67,26 +68,38 @@
                 <h3 class="heading-tertiary">Contributors</h3>
                 <div class="contributors__images">
                     <div class="contributors__image-container">
-                        <img class="contributors__image" src="resources/typefox.png"/>
+                        <a target="_blank" href="https://typefox.io">
+                            <img class="contributors__image" src="resources/typefox.png"/>
+                        </a>
                     </div>
                     <div class="contributors__image-container">
-                        <img class="contributors__image" src="resources/redhat.svg"/>
+                        <a target="_blank" href="https://www.redhat.com">
+                            <img class="contributors__image" src="resources/redhat.svg"/>
+                        </a>
                     </div>
                     <div class="contributors__image-container">
-                        <img class="contributors__image contributors__image--ibm" src="resources/ibm.svg"/>
+                        <a target="_blank" href="https://www.ibm.com">
+                            <img class="contributors__image contributors__image--ibm" src="resources/ibm.svg"/>
+                        </a>
                     </div>
                     <div class="contributors__image-container">
-                        <img class="contributors__image contributors__image--google" src="resources/google.svg"/>
+                        <a target="_blank" href="https://google.com">
+                            <img class="contributors__image contributors__image--google" src="resources/google.svg"/>
+                        </a>
                     </div>
                     <div class="contributors__image-container">
-                        <img class="contributors__image contributors__image--arm" src="resources/arm.svg"/>
+                        <a target="_blank" href="https://www.arm.com">
+                            <img class="contributors__image contributors__image--arm" src="resources/arm.svg"/>
+                        </a>
+                    </div>
+                    <div class="contributors__image-container">
+                        <a target="_blank" href="https://www.ericsson.com">
+                            <img class="contributors__image contributors__image--ericsson" src="resources/ericsson.svg"/>
+                        </a>
                     </div>
                     <!-- <div class="contributors__image-container">
-                        <img class="contributors__image contributors__image--ericsson" src="resources/ericsson.svg"/>
-                    </div> -->
-                    <div class="contributors__image-container">
                         <img class="contributors__image contributors__image--sap" src="resources/sap.svg"/>
-                    </div>
+                    </div> -->
                 </div>
             </section>
         </div>
@@ -104,7 +117,11 @@
                         <h3 class="heading-tertiary">Cloud and Desktop</h3>
                     </div>
                     <p>
-                        Eclipse Theia is entirely written in TypeScript and clearly separates the UI frontend from the backend. The frontend runs in modern browsers or as a Desktop app using Electron with either local or remote (cloud) backends.
+                        Eclipse Theia is entirely written in TypeScript and clearly separates the
+                        UI frontend from the backend. The frontend runs in modern
+                        browsers or as a
+                        <a href="http://typefox.io/theia-vs-code-in-the-cloud">Desktop app using
+                        Electron</a> with either local or remote (cloud) backends.
                     </p>
                 </div>
                 <div class="feature">
@@ -113,7 +130,12 @@
                         <h3 class="heading-tertiary">Extensible</h3>
                     </div>
                     <p>
-                       Theia applications consist of extensions. Composing a custom IDE-like product is as easy as listing all needed extensions in a package.json file. Adding new functionality by implementing your own extensions or plug-ins is easy.
+                        Theia applications consist of extensions.
+                        <a href="https://github.com/theia-ide/theia-apps">Composing
+                        a custom IDE-like product</a> is as easy as listing all needed
+                        extensions in a package.json file. Adding new
+                        functionality by <a href="http://www.theia-ide.org/doc/Authoring_Extensions.html">
+                        implementing your own extensions</a> or plug-ins is easy.
                     </p>
                 </div>
                 <div class="feature">
@@ -122,12 +144,13 @@
                         <h3 class="heading-tertiary">Cloud and Desktop</h3>
                     </div>
                     <p>
-                        Eclipse Theia is entirely written in TypeScript and clearly separates the UI frontend from the backend. The frontend runs in modern browsers or as a Desktop app using Electron with either local or remote (cloud) backends.
+                        Theia provides the <a href="http://typefox.io/theia-vs-code-in-the-cloud">VS Code experience in the browser</a>.
+                        Developers familiar with Microsoft's great editor will find many familiar features and concepts, to minimze the gap
+                        when switching between desktop and cloud environment.
                     </p>
                 </div>
             </div>
         </section>
-
     </main>
 
 </body>

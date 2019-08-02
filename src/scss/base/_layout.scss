@@ -1,0 +1,9 @@
+.row {
+    max-width: $grid-width;
+    width: 80%;
+    margin: 0 auto;
+
+    @media (max-width: $breakpoint-md) {
+        width: 95%;
+    }
+}

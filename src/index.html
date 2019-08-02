@@ -2,61 +2,108 @@
 <html lang="en">
 
 <head>
-    <title>Theia - Cloud and Desktop IDE</title>
-    <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Theia is an open-source cloud &nbsp; desktop IDE framework implemented in TypeScript.">
-    <meta name="theme-color" content="#FFFFFF">
-    <link rel="canonical" href="https://www.theia-ide.org/">
+	<title>Theia - Cloud and Desktop IDE</title>
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Theia is an open-source cloud &nbsp; desktop IDE framework implemented in TypeScript.">
+	<meta name="theme-color" content="#FFFFFF">
+	<link rel="canonical" href="https://www.theia-ide.org/">
+	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<script src="js/index.js"></script>
 </head>
 
 <body>
 
-    <!-- Header -->
+	<!-- ***** Header ***** -->
 
-    <header class='header' role='header'>
-        <nav class="nav">
-            <ul class="nav__items">
-                <li class="nav_item">
-                    <a href="#">Features</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#">Documentation</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#">Comunity</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#">Support</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#">Training</a>
-                </li>
-            </ul>
-        </nav>
+	<header class='header' role='header'>
+		<div class="row">
+			<nav class="nav">
+				<ul class="nav__items">
+					<li class="nav__item">
+						<a href="#" class="nav__link">Features</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Documentation</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Comunity</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Support</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Training</a>
+					</li>
+				</ul>
+			</nav>
 
-        <div class="header__text-box">
-            <div class="header__logo-box">
-                <img class="header__logo" src="resources/theia-logo-dark.svg" alt="theia logo"/>
+			<div class="header__text-box">
+				<div class="header__logo-box">
+					<img class="header__logo" src="resources/theia-logo-dark.svg" alt="theia logo"/>
+                </div>
+                <h1 class="heading-primary">
+                    Cloud and Desktop IDE
+                </h1>
+                <a class="btn" href="https://github.com/theia-ide/theia" target="_blank">View on GitHub</a>
+                <a class="btn" href="https://gitpod.io#https://github.com/theia-ide/theia" target="_blank">Try in Gitpod</a>
             </div>
-            <h1 class="heading-primary">
-                Cloud and Desktop IDE
-            </h1>
-            <a class="btn" herf="https://github.com/theia-ide/theia" target="_blank">View on Github</a>
-            <a class="btn" herf="https://gitpod.io#https://github.com/theia-ide/theia" target="_blank">Try in Gitpod</a>
-        </div>
 
-        <div class="header__github-details">
-            <iframe class="github-button" src="https://ghbtns.com/github-btn.html?user=theia-ide&repo=theia&type=star&count=true" frameborder="0" scrolling="0"></iframe>
-            <iframe class="github-button" src="https://ghbtns.com/github-btn.html?user=theia-ide&repo=theia&type=fork&count=true" frameborder="0" scrolling="0"></iframe>
+            <div class="header__github-details">
+                <iframe class="header__github-button" src="https://ghbtns.com/github-btn.html?user=theia-ide&repo=theia&type=star&count=true" frameborder="0" scrolling="0"></iframe>
+                <iframe class="header__github-button" src="https://ghbtns.com/github-btn.html?user=theia-ide&repo=theia&type=fork&count=true" frameborder="0" scrolling="0"></iframe>
+            </div>
         </div>
+        <div class="header__screenshot-container">
+                <img class="header__screenshot" src="resources/theia-screenshot.png" alt="Screenshot of Theia IDE" />
+        </div>
+        <div class="row">
 
-        <div>
-            <img src="resources/theia-screenshot.jpg" alt="Screenshot of Theia IDE" />
+            <!-- ***** Contributors ***** -->
+
+            <section class="contributors">
+                <h3 class="heading-tertiary">Contributors</h3>
+                <div class="contributors__images">
+                    <div class="contributors__image-container">
+                        <img class="contributors__image" src="resources/typefox.png"/>
+                    </div>
+                    <div class="contributors__image-container">
+                        <img class="contributors__image" src="resources/redhat.svg"/>
+                    </div>
+                    <div class="contributors__image-container">
+                        <img class="contributors__image contributors__image--ibm" src="resources/ibm.svg"/>
+                    </div>
+                    <div class="contributors__image-container">
+                        <img class="contributors__image contributors__image--google" src="resources/google.svg"/>
+                    </div>
+                    <div class="contributors__image-container">
+                        <img class="contributors__image contributors__image--arm" src="resources/arm.svg"/>
+                    </div>
+                    <!-- <div class="contributors__image-container">
+                        <img class="contributors__image contributors__image--ericsson" src="resources/ericsson.svg"/>
+                    </div> -->
+                    <div class="contributors__image-container">
+                        <img class="contributors__image contributors__image--sap" src="resources/sap.svg"/>
+                    </div>
+                </div>
+            </section>
         </div>
     </header>
+
+    <!-- ***** Main ***** -->
+
+    <main role="main">
+
+        <section class="features">
+            <div class="feature">
+                <img src="resources/icon-cloud-screen.svg"/>
+                <h3 class="heading-tertiary"></h3>
+            </div>
+        </section>
+
+    </main>
 
 </body>
 

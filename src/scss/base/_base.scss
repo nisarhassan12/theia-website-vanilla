@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open sans', sans-serif;
+    font-size: $default-font-size;
+    color: $grey-0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+

@@ -7,7 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 10rem;
-    border-bottom: 5px solid #f8f8f8;
+    border-bottom: 10px solid #f8f8f8;
 
     &__logo-box {
         margin-bottom: 2rem;
@@ -188,5 +188,55 @@
             font-size: 2rem;
             margin: 0 auto;
         }
+    }
+}
+
+/* ------------------------------------------ */
+/* ----- Section Promos ----- */
+/* ------------------------------------------ */
+
+.promos {
+    margin: 15rem 0;
+}
+
+.promo {
+    display: flex;
+    border: 2px solid #ebebeb;
+
+    @media(max-width: $breakpoint-md) {
+        flex-direction: column;
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 10rem;
+    }
+
+    &__text {
+        width: 50%;
+        padding: 9rem 5rem;
+
+        @media(max-width: $breakpoint-md) {
+            width: 100%;
+            max-width: 60rem;
+        }
+    }
+
+    &__media {
+        width: 50%;
+
+         @media(max-width: $breakpoint-md) {
+            width: 100%;
+            max-width: 60rem;
+        }
+    }
+
+    &__video {
+        width: 100%;
+    }
+
+    p {
+        margin-top: 3rem;
     }
 }

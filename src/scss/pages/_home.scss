@@ -240,3 +240,34 @@
         margin-top: 3rem;
     }
 }
+
+/* ------------------------------------------ */
+/* ----- Footer ----- */
+/* ------------------------------------------ */
+
+.footer {
+    padding: 4rem 0;
+    text-align: center;
+    background-image: url('../resources/background-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 10px solid #f8f8f8;
+
+
+    &__icons {
+        margin-bottom: 1rem;
+    }
+
+    &__icon {
+        height: 3rem;
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+
+    &__copyright {
+        margin-top: 5rem;
+    }
+}

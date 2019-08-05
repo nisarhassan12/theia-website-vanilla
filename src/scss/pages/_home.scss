@@ -252,14 +252,19 @@
 
 
     &__icons {
+        display: flex;
+        justify-content: center;
         margin-bottom: 1rem;
     }
 
     &__icon {
         height: 3rem;
+        display: block;
+    }
 
+    a {
         &:not(:last-child) {
-            margin-right: 1rem;
+            margin-right: 1.5rem;
         }
     }
 
